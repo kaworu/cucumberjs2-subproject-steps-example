@@ -1,0 +1,28 @@
+{
+  "name": "the-5th-planet",
+  "version": "1.0.0",
+  "description": "A small express app telling the street lamp state of the 5th planet visited by the Little Prince",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/cucumberjs --require features/support/bootstrap.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kAworu/cucumberjs2-subproject-steps-example.git"
+  },
+  "author": "Alexandre Perrin <alex@kaworu.ch>",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/kAworu/cucumberjs2-subproject-steps-example/issues"
+  },
+  "homepage": "https://github.com/kAworu/cucumberjs2-subproject-steps-example#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  },
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "cucumber": "^2.3.0",
+    "supertest": "^3.0.0",
+    "timekeeper": "^1.0.0"
+  }
+}

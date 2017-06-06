@@ -1,0 +1,27 @@
+{
+  "name": "earth",
+  "version": "1.0.0",
+  "description": "The planet Earth as a Service",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumberjs --require ./features/support/bootstrap.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kAworu/cucumberjs2-subproject-steps-example.git"
+  },
+  "author": "Alexandre Perrin <alex@kaworu.ch>",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/kAworu/cucumberjs2-subproject-steps-example/issues"
+  },
+  "homepage": "https://github.com/kAworu/cucumberjs2-subproject-steps-example#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "cucumber": "^2.3.0"
+  }
+}

@@ -4,7 +4,7 @@
   "description": "A small express app telling the street lamp state of the 5th planet visited by the Little Prince",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/cucumberjs --require features/support/bootstrap.js"
+    "test": "cucumberjs --require features/support/bootstrap.js"
   },
   "repository": {
     "type": "git",
